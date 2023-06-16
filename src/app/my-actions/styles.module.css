@@ -27,3 +27,8 @@
 .label {
     font-size: 1.25rem;
 }
+
+.error {
+    color: red;
+    padding: .5rem;
+}

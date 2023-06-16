@@ -53,7 +53,7 @@ function MyActions() {
             />
             <Button text="Agregar simbolo" onClick={handleAddSymbol} />
           </div>
-          {alreadyExists && <p>{alreadyExists}</p>}
+          {alreadyExists && <p className={styles.error}>{alreadyExists}</p>}
           {tableData.length > 0
             ? (<SimbolsTable data={tableData} setData={setTableData} />)
             : (<p>En este momento no se encuentran simbolos cargados.</p>)}
