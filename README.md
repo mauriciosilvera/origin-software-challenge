@@ -10,5 +10,5 @@ npm i
 
 npm run dev
 
-Abrir [http://localhost:3000](http://localhost:3000)
+abrir http://localhost:3000
 ```
