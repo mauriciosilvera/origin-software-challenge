@@ -9,10 +9,6 @@ const auth = {
     auth.isAuthenticated = true;
     storage.setItem(KEY_TOKEN, data);
   },
-  getData() {
-    if (!auth.isAuthenticated) return null;
-    return storage.getItem(KEY_TOKEN);
-  },
   signout() {
     auth.isAuthenticated = false;
     storage.clear();
